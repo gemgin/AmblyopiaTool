@@ -1,0 +1,117 @@
+* {
+	margin: 0px; padding: 0px;
+}
+img {
+	border: currentColor; border-image: none;
+}
+li {
+	list-style-type: none;
+}
+h1 {
+	line-height: 18px; font-size: 14px;
+}
+h2 {
+	line-height: 18px; font-size: 14px;
+}
+h3 {
+	line-height: 18px; font-size: 14px;
+}
+h4 {
+	line-height: 18px; font-size: 14px;
+}
+h5 {
+	line-height: 18px; font-size: 14px;
+}
+h6 {
+	line-height: 18px; font-size: 14px;
+}
+body {
+	background: rgb(235, 235, 235); text-align: center; line-height: 1.05em; font-family: "Microsoft yahei","Î¢ÈíÑÅºÚ"; font-size: 1.05em;
+}
+div#wrapper {
+	margin: 0px auto; width: 910px; text-align: left;
+}
+a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+div#skip {
+	height: 0px; line-height: 0px; overflow: hidden; font-size: 0px;
+}
+div#header {
+	background: rgb(255, 255, 255); border-width: 5px 5px medium; border-style: solid solid none; border-color: rgb(225, 225, 225) rgb(225, 225, 225) currentColor; padding: 30px 20px 20px; border-image: none;
+}
+h1#logo {
+	width: 860px; line-height: 0px; font-size: 0px;
+}
+div#main {
+	background: rgb(255, 255, 255); border-width: medium 5px 5px; border-style: none solid solid; border-color: currentColor rgb(225, 225, 225) rgb(225, 225, 225); padding: 10px 20px; border-image: none;
+}
+div#sidebar {
+ background-color:#edf4f9; min-height:550px;	border:1px solid #c5e4f3; padding: 15px 24px 20px; width: 200px; float: left;
+}
+div#sidebar a:link {
+	color: rgb(102, 102, 102);
+}
+div#sidebar a:visited {
+	color: rgb(102, 102, 102);
+}
+div#sidebar a:hover {
+	color: rgb(204, 0, 0);
+    text-decoration:none;
+}
+div#sidebar h2 {
+	color: #333; line-height: 22px; font-size: 20px; margin-bottom: 10px;
+}
+ul#nav {
+	width: 200px;
+}
+ul#nav li {
+	background: url("point.jpg") no-repeat left; padding: 8px 0px 8px 13px; width: 187px; color: rgb(204, 0, 0); font-weight: bold;font-size:15px;
+}
+ul#nav li a {
+	font-weight: normal; font-size:15px;
+}
+div#content {
+	border-width: 1px 1px 1px; border-style: solid; border-color: rgb(216, 216, 216); padding: 15px; border-image: none; width: 558px; color: rgb(51, 51, 51); float: right; min-height: 550px;
+}
+div#content h2 {
+	color: rgb(0, 0, 0); line-height: 22px; font-size: 18px; margin-bottom: 15px;
+}
+div#explain {
+	background: rgb(255, 255, 153); padding: 5px 8px; border: 1px dotted rgb(153, 153, 153); border-image: none; width: 540px; line-height: 18px; margin-bottom: 10px;
+}
+div#explain strong {
+	color: rgb(153, 0, 0); font-weight: bold;
+}
+div#footer {
+	padding: 20px 5px; width: 900px; color: rgb(102, 102, 102); line-height: 16px; clear: both; margin-bottom:30px;
+}
+div#footer div.leftBox {
+	padding: 1px 0px; width: 500px; text-align: left;
+}
+div#footer div.rightBox {
+	padding: 1px 0px; width: 900px; text-align: right; margin-top: -18px;
+}
+.topEnter{margin:20px 0px;}
+.topEnter a{color:#2622d6; font-size:24px;}
+.topEnter a:hover{color: rgb(204, 0, 0);text-decoration:none;}
+
+
+/*//////////////////////////////////ÎÞÕÏ°­²å¼þÆ¤·ô/////////////////////////////////////////////////*/
+.wzaColor{
+    float:right;
+    margin-right:10px;
+    line-height:2em;
+}
+.wzaColor li{
+    margin-left:4px;
+    margin-right:4px;
+    float:left;
+    font-size:1.2em;
+}

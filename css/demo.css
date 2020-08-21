@@ -1,0 +1,42 @@
+div#content h3 {
+	padding: 8px 0px; line-height: 20px; font-size: 16px;
+}
+div#content p {
+	padding: 5px 0px; line-height: 18px;
+}
+h3#Amblyopia1Title {
+	text-align: left;
+}
+form#Amblyopia3 {
+	padding: 10px 15px; border: 1px dotted rgb(204, 0, 0); border-image: none; width: 526px;
+}
+form#Amblyopia3 div.formLine {
+	padding: 7px 0px; width: 526px;
+}
+form#Amblyopia3 select {
+	width: 202px;
+}
+form#Amblyopia3 input.text {
+	border: 1px solid rgb(204, 204, 204); border-image: none; width: 200px; height: 20px;
+}
+form#Amblyopia3 label.short {
+	padding: 0px 10px 0px 16px; position: relative;
+}
+form#Amblyopia3 label.short input {
+	left: 0px; top: 2px; position: absolute;
+}
+form#Amblyopia3 label#jylable {
+	float: left;
+}
+form#Amblyopia3 textarea {
+	border: 1px solid rgb(204, 204, 204); border-image: none; width: 200px; height: 70px;
+}
+form#Amblyopia3 input.button {
+	width: 50px; height: 24px; margin-right: 15px;
+}
+div#content ul {
+	padding: 5px 0px;
+}
+div#content ul li {
+	background: url("listStyle.jpg") no-repeat 0px; padding: 4px 12px;
+}
