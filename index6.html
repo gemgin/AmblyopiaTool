@@ -149,7 +149,7 @@
                 <br /><br /><br />
                 <div id="explain">
                     <ul>
-                        <li>1.请将获取的代码添加到网站全部页面的&lt;/head&gt;标签前。</li>
+                        <li>1.请将获取的代码添加到网站全部页面的&lt;/body&gt;标签前。</li>
                         <li>2.建议在header.htm类似的页头模板页面中安装，以达到一处安装，全站皆有的效果。</li>
                     </ul>
                 </div>
@@ -231,8 +231,9 @@
 
                         layer.closeAll();
                         if (data.Status === "100") {
-                            $("#result-div").attr("style", "display:block;");//显示div
-                            $('#shorturl').append("<span name=\"shorturl\"    id=\"shorturl\" > <code>&lt;script src=\"" + data.Msg + "\" type=\"text/javascript\"&gt;&lt;/script&gt;</code></span>");
+                            $("#result-div").attr("style", "display:block;");//显示div  
+                            $('#shorturl').empty();
+                            $('#shorturl').append("<span name=\"shorturl\"    id=\"shorturl\" > <code>&lt;script id=\"rrbayJs\"  src=\"" + data.Msg + "\" type=\"text/javascript\"&gt;&lt;/script&gt;</code></span>");
                             // layer.msg('恭喜!获取成功', { icon: 6 });
                         } else if (data.Code == "101") {
                             layer.msg('获取失败', { icon: 5 });
