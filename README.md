@@ -83,6 +83,11 @@
 - 优化用户体验,第二种部署方式生成的js采用静态文件
 - 新增video标签支持
 
+## 2020-09-14 第二种无障碍工具条正式发布
+- 一行代码部署无障碍工具条
+- 新增无障碍功能快捷键支持
+- 工具条演示 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "一行代码部署无障碍工具条")
+
 ### License
 
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
