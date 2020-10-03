@@ -88,6 +88,12 @@
 - 新增无障碍功能快捷键支持
 - 代码获取 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "一行代码部署无障碍工具条")
 
+## 2020-10-03 信息无障碍工具条V2.0版本更新说明
+- 修复网页配色选项重音问题
+- 修复声音选项显示问题
+- 优化多处性能和安全问题
+- 优化加载顺序问题
+
 ### License
 
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
