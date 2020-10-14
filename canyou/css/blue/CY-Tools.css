@@ -133,6 +133,7 @@ body {
     color: #000000;
     overflow-x: hidden;
     overflow-y: hidden;
+    word-break:break-all;
 }
 
 #cy_showscreen_close {
@@ -148,15 +149,7 @@ body {
     height: 1024px;
 }
 
-#cy_start_show_area {
-    position: absolute;
-    left: 2px;
-    top: 86px;
-    z-index: 2003;
-    display: none;
-    overflow: hidden;
-}
-
+ 
 #cy_start_table td {
     color: #85c7f4;
     font-size: 16px;
