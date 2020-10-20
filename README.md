@@ -96,6 +96,11 @@
 - 优化多处性能和安全问题
 - 优化加载顺序问题
 
+## 2020-10-20 无障碍工具条移动测试版说明
+- 配色功能：切换不同页面配色风格
+- 朗读功能：全页面朗读，可以指定开始位置朗读
+- 代码获取 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "一行代码部署移动端无障碍工具条")
+
 ### License
 
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
