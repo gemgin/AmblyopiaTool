@@ -49,7 +49,7 @@ body {
 }
 
 .rrbay_toolbar_line2 {
-    height: 72px;
+    height: 50px;
     width: 12px;
 }
 
@@ -399,7 +399,9 @@ body {
 }
 
 .rrbay_top {
-    height: 108px;
+    padding-top:5px;
+    padding-bottom:5px;
+    height: 98px;
 }
 
 .rrbay_top_trone td {
@@ -408,14 +410,7 @@ body {
     vertical-align: middle;
 }
 
-.cy_toolbar_bg_table .rrbay_top_trtwo td {
-    padding-top: 17px;
-    vertical-align: top;
-}
-
 .rrbay_top_trthree td {
-    height: 44px;
-    line-height: 20px;
     vertical-align: top;
 }
 
@@ -425,9 +420,9 @@ body {
     font-weight: normal;
 }
 
-.cy_toolbar_bg_table td {
+/*.cy_toolbar_bg_table td {
     padding: 0 6px;
-}
+}*/
 
 .cy_enable {
     width: 26px;
