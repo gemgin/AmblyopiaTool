@@ -19,14 +19,14 @@ body {
 }
 
 .cy_toolbar_bg_table {
-    height: 106px;
+    height: 98px;
     margin: 0 auto;
 }
 
     .cy_toolbar_bg_table td {
         font-size: 16px;
         color: #ffffff;
-        line-height: 30px;
+        line-height: 20px;
         text-align: center;
         font-family: Microsoft Yahei;
     }
@@ -395,13 +395,13 @@ body {
 }
 
 .cy_toolbar_bg_table {
-    height: 108px;
+    height: 98px;
 }
 
 .rrbay_top {
     padding-top:5px;
     padding-bottom:5px;
-    height: 98px;
+    height: 88px;
 }
 
 .rrbay_top_trone td {
@@ -419,10 +419,7 @@ body {
     font-size: 14px;
     font-weight: normal;
 }
-
-/*.cy_toolbar_bg_table td {
-    padding: 0 6px;
-}*/
+ 
 
 .cy_enable {
     width: 26px;
