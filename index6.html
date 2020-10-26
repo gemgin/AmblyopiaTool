@@ -140,24 +140,10 @@
                     <a style="line-height:1.5em;" target="_blank" href="https://gitee.com/tywAmblyopia/ToolsUI.git" rel="nofollow" title="网站无障碍工具条源码下载">https://gitee.com/tywAmblyopia/ToolsUI.git</a>
                 </div>
                 <div id="explain">
-                    <strong>工具条移动端安装部署:</strong>
-                </div>
-                <div>
-                    <input class="itxt" type="text" id="longurl" name="longurl" placeholder="请输入您的域名" />
-                    <button class="test-btn" onclick="click_fn()" id="btn_test" name="btn_test">获取代码</button>
-                </div>
-                <br /><br /><br />
-                <div id="explain">
-                    <ul>
-                        <li>1.请将获取的代码添加到网站全部页面的&lt;/body&gt;标签前。</li>
-                        <li>2.建议在header.htm类似的页头模板页面中安装，以达到一处安装，全站皆有的效果。</li>
-                    </ul>
-                </div>
-                <div class="ban-form-result" id="result-div" style="display:none;">
-                    <span class="elli" id="shorturl" title=""></span>
-                    <input type="button" value="复制" class="DuanBtn" id="clip" data-clipboard-action="copy" data-clipboard-target="#shorturl" />
-                </div>
-
+                    <strong>工具条手机端安装部署:</strong>
+                    <br />
+                    <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/tools/wzatool.html"  title="一键获取安装部署移动端无障碍工具条的代码">https://www.rrbay.com/tools/wzatool.html</a>
+                </div>               
             </div>
             <!--end 站点右侧内容 -->
             <div style="clear:both;"></div>
@@ -178,101 +164,6 @@
         </div>
         <!--end: 底部版权 -->
     </div>
-    <script type="text/javascript" rel="nofollow" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" rel="nofollow" src="https://cdnjs.cloudflare.com/ajax/libs/layer/2.3/layer.js"></script>
-    <script type="text/javascript" rel="nofollow" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-
-    <script type="text/javascript">
-        //实例化 ClipboardJS对象;
-        var copyBtn = new ClipboardJS('.DuanBtn');
-
-        copyBtn.on("success", function (e) {
-            // 复制成功
-            layer.msg('copied!', { icon: 6 });
-            e.clearSelection();
-        });
-        copyBtn.on("error", function (e) {
-            //复制失败；
-            console.log(e.action)
-        });
-    </script>
-
-
-
-    <script type="text/javascript">
-
-        $(document).keyup(function (event) {
-            if (event.keyCode == 13) {
-                click_fn();
-            }
-        });
-        var btn = document.getElementById("btn_test");
-        function click_fn() {
-            $("#su").attr("disabled", "disabled");
-            $("#su").val("验证中...");
-            $("#txtShow").html("&nbsp;");     //设置值
-            var myvalue = $("#longurl").val();   //取值
-            if (IsURL(myvalue)) {
-                var index = layer.load(1, {
-                    shade: [0.1, '#fff'] //0.1透明度的白色背景
-                });
-                $.ajax({
-                    async: false,
-                    url: "http://wza.rrbay.com/APIHandler.ashx",
-                    type: "GET",
-                    dataType: 'jsonp',
-                    jsonp: 'callback',
-                    data: {
-                        method: "getapi",
-                        domain: myvalue,
-                    },
-                    timeout: 2000,
-                    success: function (data) {
-
-                        layer.closeAll();
-                        if (data.Status === "100") {
-                            $("#result-div").attr("style", "display:block;");//显示div  
-                            $('#shorturl').empty();
-                            $('#shorturl').append("<span name=\"shorturl\"    id=\"shorturl\" > <code>&lt;script id=\"rrbayJs\"  src=\"" + data.Msg + "\" type=\"text/javascript\"&gt;&lt;/script&gt;</code></span>");
-                            // layer.msg('恭喜!获取成功', { icon: 6 });
-                        } else if (data.Code == "101") {
-                            layer.msg('获取失败', { icon: 5 });
-                        } else {
-                            layer.msg(data.Msg, { icon: 4 });
-                        }
-                        $("#su").removeAttr("disabled");
-                        $("#su").val("免费授权");
-                    }
-                });
-            } else {
-                layer.alert('请输入正确域名!', {
-                    skin: 'layui-layer-molv' //样式类名
-                  , closeBtn: 0
-                }, function () {
-                    $("#su").removeAttr("disabled");
-                    $("#su").val("免费授权");
-                    layer.closeAll();
-                })
-
-            }
-        }
-
-        function qingkong() {
-            $("#txtShow").html("&nbsp;");     //设置值
-        }
-        function IsURL(str_url) {
-            var strRegex = "^[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+$";
-            var re = new RegExp(strRegex);
-            //re.test()
-            if (re.test(str_url)) {
-                return (true);
-            } else {
-                return (false);
-            }
-        }
-    </script>
-
-
-
+ 
 </body>
 </html>
