@@ -99,6 +99,7 @@
 ## 2020-10-20 无障碍工具条移动测试版说明
 - 配色功能：切换不同页面配色风格
 - 朗读功能：全页面朗读，可以指定开始位置朗读
+- 放大功能：页面字体5级放大
 - 代码获取 [https://www.rrbay.com/tools/wzatool.html](https://www.rrbay.com/tools/wzatool.html "一行代码部署移动端无障碍工具条")
 - 手机端效果演示 [https://www.rrbay.com/contact](https://www.rrbay.com/contact "用手机打开此页面")
 
