@@ -83,11 +83,6 @@
 - 优化用户体验,第二种部署方式生成的js采用静态文件
 - 新增video标签支持
 
-## 2020-09-14 第二种无障碍工具条正式发布
-- 一行代码部署无障碍工具条
-- 新增无障碍功能快捷键支持
-- 代码获取 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "一行代码部署无障碍工具条")
-
 ## 2020-10-03 信息无障碍工具条V2.0版本更新说明
 - 修复ajax异步加载标签指读显示问题
 - 修复网页配色选项重音问题
@@ -102,6 +97,11 @@
 - 放大功能：页面字体5级放大
 - 代码获取 [https://www.rrbay.com/tools/wzatool.html](https://www.rrbay.com/tools/wzatool.html "一行代码部署移动端无障碍工具条")
 - 手机端效果演示 [https://www.rrbay.com/contact](https://www.rrbay.com/contact "用手机打开此页面")
+
+## 2020-12-12 一键部署无障碍工具条
+- 一行代码部署无障碍工具条
+- 同时支持PC端和移动端
+- 代码获取 [https://www.rrbay.com/tools/wzatool.html](https://www.rrbay.com/tools/wzatool.html "一行代码部署无障碍工具条")
 
 ### License
 
