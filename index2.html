@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <meta name="referrer" content="same-origin" />
+    <meta name="referrer" content="origin" />
     <title>非文本朗读演示 - 信息无障碍公共服务平台 - 湖北太阳湾科技有限公司</title>
     <meta name="keywords" content="无障碍工具条,信息无障碍,无障碍通道" />
     <meta name="description" content="湖北太阳湾科技有限公司是中国最早专注于信息无障碍的专业机构。为推动中国信息无障碍环境建设进程，公司组建了一支由精通IT和信息无障碍专业知识、同时是障碍群体组成的信息无障碍专家团队，提供专业信息无障碍测试、咨询、优化服务，以实现信息无障碍在执行层面的可行性。" />
@@ -12,34 +12,14 @@
     <link href="css/public.css" rel="stylesheet" type="text/css" />
     <link href="css/demo.css" rel="stylesheet" type="text/css" />
     <meta name="GENERATOR" content="MSHTML 11.00.9600.16521" />
-    <script type="text/javascript">
-        function ShowDetail() {
-            if (window.top.document.getElementById("rrbay_toolbar_div")) {
-                return false;
-            }
-           var url = "?url=" + document.location.href;
-             window.scrollTo(0, 0);
-            location_href('canyou/default.html' + url);
-        }
-        function location_href(url) { location.href = url }
-    </script>
-
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?c3f009f814f701e8fad8a17f9682ec79";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+   
+     
 
 </head>
 <body>
     <!--start 信息无障碍通道 -->
     <h1 class="topEnter">
-        <a title="无障碍通道" href="javascript:" onclick="ShowDetail()"
-  accesskey="g"         onmousedown="ShowDetail()" target="_self">进入无障碍通道</a>
+        <a id="wzayd" title="网站辅助浏览" class="wzayd" accesskey="g">点击适老模式</a>
     </h1>
     <!--end  信息无障碍通道 -->
     <div id="skip">
@@ -54,15 +34,15 @@
             <div class="wzaColor">
                 <ul>
                     <li>
-                        <a href="/index2.html">蓝色</a>
+                        <a href="/">蓝色</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="/index3.html">纯蓝</a>
+                        <a href="/index2.html">纯蓝</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="/">灰色</a>
+                        <a href="/index3.html">灰色</a>
                     </li>
                 </ul>
             </div>
@@ -97,8 +77,10 @@
                     图片内容朗读样例
                 </h3>
                 <img title="越是残疾，越要美丽。" alt="越是残疾，越要美丽。" src="css/pic.jpg" />
-        
-            </div>
+     <h3>
+                    视频样例
+                </h3>
+                <video style="background-color: rgb(0, 0, 0); width: 100%; height: 100%; display: block;" webkit-playsinline="" x-webkit-airplay="" data-role="txp_video_tag" name="media" controls="controls" preload="meta" src="https://media.nfapp.southcn.com/Act-ss-mp4-sd/090ed0658aa44fb1a0a3e6c6efe6b753.mp4" title="《We Are All Fighters》抗肺炎英文励志演讲"></video>  </div>
             <!--end 站点右侧内容 -->
             <div style="clear:both;"></div>
         </div>
@@ -118,5 +100,6 @@
         </div>
         <!--end: 底部版权 -->
     </div>
+    <script id="rrbayJs" src="//wza.rrbay.com/js/wza.max.js?bluer"></script>
 </body>
 </html>
