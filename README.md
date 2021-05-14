@@ -29,9 +29,9 @@
 
 ### 网站信息无障碍工具条安装部署
 
-- [电脑端无障碍工具条安装部署(推荐)] (https://www.rrbay.com/wza/wang-zhan-xin-xi-wu-zhang-ai-gong-ju-tiao-an-zhuang-bu-shu "电脑端无障碍工具条安装部署")
+- [电脑端无障碍工具条安装部署(推荐)](https://www.rrbay.com/wza/wang-zhan-xin-xi-wu-zhang-ai-gong-ju-tiao-an-zhuang-bu-shu "电脑端无障碍工具条安装部署")
 
-- [移动端无障碍工具条安装部署(推荐)] (https://www.rrbay.com/tools/wzatool-mobile.html "移动端一键部署无障碍工具条代码获取")
+- [移动端无障碍工具条安装部署(推荐)](https://www.rrbay.com/tools/wzatool-mobile.html "移动端一键部署无障碍工具条代码获取")
 
 - [无障碍工具条一键安装部署(同时支持PC端和移动端)](https://www.rrbay.com/tools/wzatool.html "一键部署无障碍工具条代码获取(同时支持PC端和移动端)")
 
