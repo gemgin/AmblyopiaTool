@@ -27,37 +27,17 @@
 ### 信息无障碍改造流程
 ![信息无障碍改造流程](doc/%E6%97%A0%E9%9A%9C%E7%A2%8D%E6%9C%8D%E5%8A%A1%E6%B5%81%E7%A8%8B.jpg)
 
-### 信息无障碍辅助工具部署步骤
+### 网站信息无障碍工具条安装部署
 
-> 以太阳湾信息无障碍公共服务平台为例，地址：http://www.qqqao.com/
+- 电脑端无障碍工具条安装部署(推荐) [http://www.qqqao.com/](https://www.rrbay.com/wza/wang-zhan-xin-xi-wu-zhang-ai-gong-ju-tiao-an-zhuang-bu-shu "电脑端无障碍工具条安装部署")
 
-- 1.将`canyou`文件夹放到 `http://www.qqqao.com` 站点指向的服务器目录下，保证`http://www.qqqao.com/canyou/`能够被访问到即可。
+- 移动端无障碍工具条安装部署(推荐) [http://www.qqqao.com/index2.html](https://www.rrbay.com/tools/wzatool-mobile.html "工具条蓝色模版")
 
-- 2.添加js.将下面一段js放在`http://www.qqqao.com`网站首页模板区间任意位置即可。一般网站头部和尾部都是模版区。建议放在网站每个页面的`</body>`之前
-```
-     <script type="text/javascript">
-        function ShowDetail() {
-           if (window.top.document.getElementById("rrbay_toolbar_div")) {
-               return false;
-           }
-           var url = "?url=" + document.location.href;window.scrollTo(0, 0);
-           location_href('canyou/default.html'  + url);
-        }
-        function location_href(url) { location.href = url }
-    </script>
-```
-- 3.在首页位置添加链接，确保红色加粗的不变。可以使用任何html标签。确保该链接放在页面的易发现位置。链接代码如下：
-```
-   <a title="盲人朋友在线浏览按住Alt+g键"  onmousedown="ShowDetail()" accesskey="g">信息无障碍通道</a>。
-```
+- 无障碍工具条一键安装部署(同时支持PC端和移动端) [https://www.rrbay.com/tools/wzatool.html](http://www.qqqao.com/index3.html "工具条纯蓝模版")
 
-> 测试部署是否成功
+> 免费安装部署使用:严格按照上面步骤部署安装,请保留太阳湾版权信息以及签订捐赠协议。
 
-   在浏览器中输入地址或通过单击原网站头部无障碍操作条中的链接即可完成对网站的信息无障碍化访问。
-
-- 免费安装部署使用:严格按照上面步骤部署安装,请保留太阳湾版权信息以及签订捐赠协议。
-
-- 商用的、不保留版权请移步 [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "工具条灰色模版")
+> 商用的、不保留版权请移步 [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "工具条灰色模版")
 
 ### 演示站点
 
