@@ -1,0 +1,60 @@
+﻿/*
+* name: CY-help.css
+* author: baysun
+* addTime: 2012.17.29
+* editTime:
+* description: https://gitee.com/tywAmblyopia/ToolsUI
+*
+***/
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font: 12px Arial, Helvetica;
+    color: #000;
+}
+
+a:link {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+a:active {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.help-title {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 15px;
+    font-weight: bold;
+    color: #333;
+    background-color: #edf4f9;
+    text-align: left;
+    font-family: 微软雅黑;
+}
+
+.help-content {
+    font-size: 14px;
+    font-family: "Microsoft yahei";
+    text-indent: 2em;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.content {
+    font-size: 14px;
+    padding-left: 8px;
+    color: #0066CC;
+}
