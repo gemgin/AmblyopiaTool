@@ -84,6 +84,11 @@
 - 同时支持PC端和移动端
 - 代码获取 [https://www.rrbay.com/tools/wzatool.html](https://www.rrbay.com/tools/wzatool.html "一行代码部署无障碍工具条")
 
+## 2021-10-25 PC端无障碍工具条2.1版本
+- 支持vue单页面站点
+- 修复异步加载标签渲染和配色问题
+- 无障碍工具条两种安装部署方式 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "无障碍工具条两种安装部署方式")
+
 ### License
 
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
