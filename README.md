@@ -35,9 +35,7 @@
 
 - [无障碍工具条一键安装部署(同时支持PC端和移动端)](https://www.rrbay.com/tools/wzatool.html "一键部署无障碍工具条代码获取(同时支持PC端和移动端)")
 
-> 免费安装部署使用:严格按照上面步骤部署安装,请保留太阳湾版权信息以及签订捐赠协议。
-
-> 商用的、不保留版权请移步 [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "工具条灰色模版")
+> 网站无障碍工具条授权方式： [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "工具条灰色模版")
 
 ### 演示站点
 
@@ -46,6 +44,8 @@
 - 工具条蓝色模版 [http://www.qqqao.com/index2.html](http://www.qqqao.com/index2.html "工具条蓝色模版")
 
 - 工具条纯蓝模版 [http://www.qqqao.com/index3.html](http://www.qqqao.com/index3.html "工具条纯蓝模版")
+
+- 工具条黑白黄模版 [http://www.qqqao.com/index4.html](http://www.qqqao.com/index4.html "工具条黑白黄模版")
 
 ## 2019-09-20 信息无障碍工具条V1.6版本升级说明
 - 修复 URL(/canyou/default.html?url=)存在基于DOM的跨站脚本漏洞
