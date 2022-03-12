@@ -17,9 +17,9 @@
         if (window.top.document.getElementById("rrbay_toolbar_div")) {
             return false;
         }
-        // var url = "?url=" + document.location.href;
+        var url = "?url=" + document.location.href;
         window.scrollTo(0, 0);
-        location_href('canyou/defaultGrey.html');
+        location_href('canyou/defaultBluer.html' + url);
     }
     function location_href(url) { location.href = url }
     </script>
