@@ -45,7 +45,7 @@
 
 - 工具条纯蓝模版 [http://www.qqqao.com/index3.html](http://www.qqqao.com/index3.html "工具条纯蓝模版")
 
-- 工具条黑白黄模版 [http://www.qqqao.com/index4.html](http://www.qqqao.com/index4.html "工具条黑白黄模版")
+- 工具条黑白黄模版 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "工具条黑白黄模版")
 
 ## 2019-09-20 信息无障碍工具条V1.6版本升级说明
 - 修复 URL(/canyou/default.html?url=)存在基于DOM的跨站脚本漏洞
@@ -88,6 +88,11 @@
 - 支持vue单页面站点
 - 修复异步加载标签渲染和配色问题
 - 无障碍工具条两种安装部署方式 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "无障碍工具条两种安装部署方式")
+
+## 2022-03-12 无障碍工具条2.1版本更新说明
+- 修复重音问题
+- 优化cookie问题
+- 新增无障碍工具条黑白黄皮肤 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "无障碍工具条黑白黄皮肤")
 
 ### License
 
