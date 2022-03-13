@@ -47,6 +47,10 @@
 
 - 工具条黑白黄模版 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "工具条黑白黄模版")
 
+## 反馈问题
+
+无障碍工具条相关问题解答和反馈： [https://support.qq.com/products/385831/](https://support.qq.com/products/385831/ "无障碍工具条相关问题解答和反馈")
+
 ## 2019-09-20 信息无障碍工具条V1.6版本升级说明
 - 修复 URL(/canyou/default.html?url=)存在基于DOM的跨站脚本漏洞
 - 修复 URL(/canyou/default.html?url=)存在跳转漏洞
