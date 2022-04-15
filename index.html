@@ -10,14 +10,26 @@
     <link href="favicon.ico" rel="Bookmark" />
     <link href="favicon.ico" rel="shortcut icon" />
     <link href="css/public.css" rel="stylesheet" type="text/css" />
-    <link href="css/demo.css" rel="stylesheet" type="text/css" />    
+    <link href="css/demo.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        function ShowDetail() {
+            if (window.top.document.getElementById("rrbay_toolbar_div")) {
+                return false;
+            }
+            var url = "?url=" + document.location.href;
+            window.scrollTo(0, 0);
+            location_href('canyou/default.html' + url);
+        }
+        function location_href(url) { location.href = url }
+    </script>
+
 </head>
 <body>
     <!--start 信息无障碍通道 -->
-
     <h1 class="topEnter">
-        <a id="wzayd" title="网站盲人通道" class="wzayd" accesskey="g">进入网站盲人通道</a>
-    </h1>
+        <a title="网站适老模式" href="javascript:" onclick="ShowDetail()" accesskey="g"
+           onmousedown="ShowDetail()" target="_self">点击进入适老模式</a>
+    </h1> 
     <!--end  信息无障碍通道 -->
     <div id="skip">
         <a title="跳转到主要内容区域" accesskey="2" href="index.html#content">跳转到主要内容区域</a>
@@ -29,17 +41,21 @@
                 <img alt="网站无障碍工具条演示站点" src="css/logo.jpg" />
             </a>
             <div class="wzaColor">
-                <ul>
+                <ul>                  
                     <li>
                         <a href="/">蓝色</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="/index2.html">纯蓝</a>
+                        <a href="/index2">灰色</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="/index3.html">灰色</a>
+                        <a href="/index3.html">纯蓝</a>
+                    </li>
+                    <li>/</li>
+                    <li>
+                        <a href="/index6.html">黑白黄</a>
                     </li>
                 </ul>
             </div>
@@ -118,8 +134,8 @@
         <div id="footer">
             <div class="rightBox" id="copyright">
                 Copyright &copy;
-                <script type="text/javascript">var date = new Date; document.write(unescape(date.getFullYear()));</script> 
-                <a  href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">湖北太阳湾科技有限公司 </a>
+                <script type="text/javascript">var date = new Date; document.write(unescape(date.getFullYear()));</script>
+                <a href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">湖北太阳湾科技有限公司 </a>
             </div>
             <div class="leftBox" id="address">
                 <a href="http://www.beian.miit.gov.cn" rel="nofollow" target="_blank">鄂ICP备18001550号</a>
@@ -131,6 +147,5 @@
         </div>
         <!--end: 底部版权 -->
     </div>
-    <script id="rrbayJs" src="//wza.rrbay.com/js/wza.max.js?5f9bf445b6508a1f8c1dfc61"></script>
 </body>
 </html>
