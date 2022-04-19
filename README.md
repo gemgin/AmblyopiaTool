@@ -39,7 +39,7 @@
 
 ### 演示站点
 
-- 工具条蓝色模版 [http://www.qqqao.com/](http://www.qqqao.com/ "工具条蓝色模版")
+- 工具条蓝色模版 [http://www.qqqao.com/index6.htm](http://www.qqqao.com/index6.htm "工具条蓝色模版")
 
 - 工具条灰色模版 [http://www.qqqao.com/index2.html](http://www.qqqao.com/index2.html "工具条灰色模版")
 
