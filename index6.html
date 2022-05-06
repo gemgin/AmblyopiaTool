@@ -12,6 +12,11 @@
     <link href="css/public.css" rel="stylesheet" type="text/css" />
     <link href="css/demo.css" rel="stylesheet" type="text/css" />
     <meta name="GENERATOR" content="MSHTML 11.00.9600.16521" />
+    <!--适老模式 -->
+    <script type="text/javascript" src="/canyou/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/canyou/js/wza_elder.js"></script>
+    <!--适老模式样式定制 -->
+    <link rel="stylesheet" href="/canyou/css/elder.css" type="text/css" />
     <style type="text/css">
         .itxt {
             width: 78%;
@@ -60,13 +65,13 @@
         }
         function location_href(url) { location.href = url }
     </script>
-
 </head>
 <body>
     <!--start 信息无障碍通道 -->
     <h1 class="topEnter">
         <a title="网站无障碍辅助浏览" href="javascript:" onclick="ShowDetail()" accesskey="g"
-           onmousedown="ShowDetail()" target="_self">点击无障碍辅助浏览</a>
+           onmousedown="ShowDetail()" target="_self">无障碍阅读</a>
+        <a id="wzaElder" class="wzaElder" style="display: inline-block;background: #ff9027;color: #fff !important;" href="javascript:void(0);">开始适老模式</a>
     </h1>
     <!--end  信息无障碍通道 -->
     <div id="skip">
@@ -140,16 +145,13 @@
                         </li>
                     </ul>
                 </div>
-
                 <div id="explain">
                     <strong>第二种安装部署方式:</strong>
                     <br />
-
                     <ul>
                         <li>
                             <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/tools/wzatool.html" title="一键获取安装部署电脑端和移动端无障碍工具条的代码">点击此查看-->无障碍工具条一键安装部署(同时支持电脑端和移动端)</a>
                         </li>
-
                     </ul>
                 </div>
                 <br />
@@ -173,9 +175,7 @@
                             <a href="http://www.qqqao.com/index5.html">点击此查看-->PC端无障碍工具条演示(仅PC端打开)</a>
                         </li>
                     </ul>
-
                 </div>
-
             </div>
             <!--end 站点右侧内容 -->
             <div style="clear:both;"></div>
@@ -193,7 +193,6 @@
             <div class="rightBox" id="tel">
                 QQ:308463776
             </div>
-
         </div>
         <!--end: 底部版权 -->
     </div>
