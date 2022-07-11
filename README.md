@@ -98,6 +98,10 @@
 - 优化cookie问题
 - 新增无障碍工具条黑白黄皮肤 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "无障碍工具条黑白黄皮肤")
 
+## 2022-07-11 无障碍工具条2.1版本更新说明
+- 重写纯蓝版本（包括一键部署纯蓝版本和本地部署纯蓝版本）
+- 纯蓝版本演示 [http://www.qqqao.com/index3.html](http://www.qqqao.com/index3.html "无障碍工具条纯蓝版本")
+
 ### License
 
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
