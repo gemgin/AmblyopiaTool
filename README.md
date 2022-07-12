@@ -39,13 +39,13 @@
 
 ### 演示站点
 
-- 工具条蓝色模版 [http://www.qqqao.com/index5.html](http://www.qqqao.com/index5.html "工具条蓝色模版")
-
-- 工具条灰色模版 [http://www.qqqao.com/index2.html](http://www.qqqao.com/index2.html "工具条灰色模版")
-
 - 工具条纯蓝模版 [http://www.qqqao.com/index3.html](http://www.qqqao.com/index3.html "工具条纯蓝模版")
 
 - 工具条黑白黄模版 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "工具条黑白黄模版")
+
+- 工具条蓝色模版 [http://www.qqqao.com/index5.html](http://www.qqqao.com/index5.html "工具条蓝色模版")
+
+- 工具条灰色模版 [http://www.qqqao.com/index2.html](http://www.qqqao.com/index2.html "工具条灰色模版")
 
 ## 反馈问题
 
@@ -98,9 +98,13 @@
 - 优化cookie问题
 - 新增无障碍工具条黑白黄皮肤 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "无障碍工具条黑白黄皮肤")
 
-## 2022-07-11 无障碍工具条2.1版本更新说明
+## 2022-07-11 无障碍工具条3.0版本更新说明
 - 重写纯蓝版本（包括一键部署纯蓝版本和本地部署纯蓝版本）
+- 防抖动重音问题
+- 新增鼠标指针图标功能
+- 优化一些功能
 - 纯蓝版本演示 [http://www.qqqao.com/index3.html](http://www.qqqao.com/index3.html "无障碍工具条纯蓝版本")
+- 黑白黄版本演示 [http://www.qqqao.com/index6.html](http://www.qqqao.com/index6.html "无障碍工具条黑白黄版本")
 
 ### License
 
