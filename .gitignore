@@ -18,6 +18,9 @@ bld/
 
 # Roslyn cache directories
 *.ide/
+wzatool.js
+CY-0.2.0.js
+CY-0.2.1.js
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
