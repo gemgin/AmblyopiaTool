@@ -18,8 +18,7 @@ bld/
 
 # Roslyn cache directories
 *.ide/
-CY-0.2.0.js
-CY-0.2.1.js
+canyou/js/v*/*.js
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
