@@ -1,8 +1,8 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="referrer" content="origin" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>无障碍工具条源码 - 免费安装使用 - 湖北太阳湾科技有限公司</title>
     <!--页面SEO优化-->
     <meta name="og:keywords" content="信息无障碍,无障碍工具条,适老化,长辈模式,无障碍阅读,适老化,长辈模式,无障碍通道,网站无障碍,无障碍标准,无障碍实施,无障碍改造,无障碍辅助浏览," />
@@ -13,193 +13,146 @@
     <meta name="description" content="湖北太阳湾科技有限公司是中国最早专注于信息无障碍的专业机构。为推动中国信息无障碍环境建设进程，公司组建了一支由精通IT和信息无障碍专业知识、同时是障碍群体组成的信息无障碍专家团队，提供专业信息无障碍测试、咨询、优化服务，以实现信息无障碍在执行层面的可行性。" />
     <meta name="og:author" content="湖北太阳湾科技有限公司" />
     <meta name="author" content="湖北太阳湾科技有限公司" />
-
     <meta property="og:type" content="website" />
     <meta property="type" content="website" />
     <meta property="og:url" content="http://www.qqqao.com/index.html" />
     <meta name="url" content="http://www.qqqao.com/index.html" />
-    <meta property="og:image" content="/css/logo.jpg" />
-    <meta name="image" content="/css/logo.jpg" />
+    <meta property="og:image" content="/res/logo.jpg" />
+    <meta name="image" content="/res/logo.jpg" />
     <link href="favicon.ico" rel="Bookmark" />
     <link href="favicon.ico" rel="shortcut icon" />
-    <!-- 引入样式 -->
-    <link href="css/public.css" rel="stylesheet" type="text/css" />
-    <link href="css/demo.css" rel="stylesheet" type="text/css" />
-    <!--适老模式 -->
-    <script type="text/javascript" src="/canyou/js/jquery-3.6.1.min.js"></script>
-    
-    <!--适老模式样式定制 -->
-    <link rel="stylesheet" href="/canyou/themes/res/elder.css" type="text/css" />
-    <style type="text/css">
-        .itxt {
-            width: 78%;
-            height: 35px;
-            float: left;
-            border-radius: 8px;
-            line-height: 35px;
-            font-size: 1rem;
-        }
-
-        .test-btn {
-            margin-left: -5px;
-            width: 19%;
-            height: 39px;
-            float: left;
-            line-height: 39px;
-            font-size: 1rem;
-            background-color: #75d472;
-        }
-
-
-        .elli {
-            float: left;
-            position: relative;
-            line-height: 35px;
-            border-radius: 8px;
-            font-size: 0.74rem;
-            border: 1px solid;
-        }
-
-        .DuanBtn {
-            padding: 8px 10px;
-            float: left;
-            background-color: #75d472;
-            position: relative;
-        }
-    </style>
+    <!-- CSS Implementing Plugins -->
+    <link type="text/css" rel="stylesheet nofollow" href="res/bootstrap.min.css" />
+ 
+    <!-- CSS Template -->
+    <link type="text/css" rel="stylesheet nofollow" href="res/main.css" />
+    <link type="text/css" rel="stylesheet nofollow" href="res/elder.css" />
+    <!--[if lt IE 9]>
+      <script src="res/html5shiv.js"></script>
+      <script src="res/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-    <!--start 信息无障碍通道 -->
-    <h1 id="topEnter" class="topEnter">
-        <a id="wzayd" title="网站信息无障碍工具条" href="javascript:;" class="wzayd" accesskey="g">无障碍阅读</a> 
-        <a id="wzaElder" class="wzaElder" style="background: #ff9027;color: #fff !important;" href="javascript:void(0);" accesskey="o">开启适老模式</a>
-    </h1>
-    <!--end  信息无障碍通道 -->
-    <div id="skip">
-        <a title="跳转到主要内容区域" accesskey="2" href="index6.html#content">跳转到主要内容区域</a>
+    <div id="page" class="page">
+        <!--start header -->
+        <header class="header8" id="home">
+            <!--start navigation -->
+            <nav role="navigation" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                            <span class="sr-only">菜单</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="wzayd" title="网站信息无障碍工具条" href="javascript:;" class="navbar-brand brand wzayd" accesskey="g"><i class="fa  icon-wza " aria-hidden="true"></i>无障碍阅读</a>
+                        <a id="wzaElder" title="网站适老化模式" class="navbar-brand brand wzaElder" href="javascript:;" accesskey="o"><i class="fa  icon-elder" aria-hidden="true"></i>适老模式</a>
+                    </div>
+                    <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="scroll" title="文本朗读演示页面" href="index.html">首页</a></li>
+                            <li><a class="scroll" title="非文本对象演示页面" href="index2.html">非文本对象</a></li>
+                            <li><a class="scroll" title="表单朗读演示页面" href="index3.html">表单朗读</a></li>
+                            <li><a class="scroll" title="栏目跳转演示页面" href="index4.html">栏目跳转</a></li>
+                            <li><a class="scroll" title="区域跳转演示页面" href="index5.html">区域跳转</a></li>
+                            <li class="active"><a class="scroll" title="无障碍工具条下载部署" href="index6.html">下载安装</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--start navigation -->
+            <!--end content -->
+
+            <div class="intro center-content">
+
+                <div class="container">
+                    <div class="row">
+                        <a id="logo" href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">
+                            <img alt="网站无障碍工具条演示站点" src="res/logo.jpg" />
+                        </a>
+                        <hr class="animate-box fadeInUp animated" />
+                        <div id="content">
+                            <h2>
+                                太阳湾信息无障碍公共服务平台
+                            </h2>
+                            <ul>
+                                <li><strong>官方网站:</strong><a href="https://www.rrbay.com" target="_blank" title="湖北太阳湾科技有限公司官方网站">https://www.rrbay.com</a></li>
+                                <li><strong>著作权登记号:</strong><a href="https://register.ccopyright.com.cn/query.html" rel="nofollow" target="_blank" title="中国版权登记查询服务">2018SR930722</a></li>
+                                <li><strong>在线咨询:</strong><a href="http://wpa.qq.com/msgrd?v=3&uin=308463776&site=qq&menu=yes" rel="nofollow" target="_blank" title="qq微信同号">QQ:308463776</a></li>
+                            </ul>
+
+                            <hr class="animate-box fadeInUp animated" />
+
+                            <div id="explain">
+                                <strong>第一种本地部署方式(推荐):</strong>
+                                <br />
+                                <ul>
+                                    <li>
+                                        <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/wza/wzatool_v3-2" title="默认支持手机端无障碍工具条">点击此查看-->无障碍工具条</a>
+                                    </li>
+                                    <li>
+                                        <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/wza/wza_elder_tool" title="适老化需要定制大字版样式和定制区域跳转选择器">点击此查看-->适老化工具条</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="explain">
+                                <strong>第二种在线部署方式(在线生成部署代码，引用添加即可):</strong>
+                                <br />
+                                <ul>
+                                    <li>
+                                        <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/tools/wzatool.html" title="同时支持无障碍工具条、适老化工具条以及移动端无障碍工具条">点击此查看-->一键部署无障碍工具条</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="explain">
+                                <strong>其它部署方式:基于iframe(停止升级维护)</strong>
+                                <br />
+                                <ul>
+                                    <li>
+                                        <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/wza/wang-zhan-xin-xi-wu-zhang-ai-gong-ju-tiao-an-zhuang-bu-shu" title="信息无障碍辅助浏览工具条源码下载">点击此查看-->电脑端无障碍工具条安装部署</a>
+                                    </li>
+                                    <li>
+                                        <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/tools/wzatool-mobile.html" title="移动端一键部署无障碍工具条代码获取">点击此查看-->移动端无障碍工具条安装部署</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <hr class="animate-box fadeInUp animated" />
+
+                            <div id="explain">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li">点击此查看-->网站无障碍工具条授权方式</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.rrbay.com/wza/wza-service">点击此查看-->我们能提供的信息无障碍服务</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end content -->
+        </header>
+        <!--end  header -->
+        <!--start footer -->
+        <footer class="footer8">
+            <div class="container">
+                <div class="col-md-12">
+                    Copyright &copy;
+                    <script type="text/javascript">var date = new Date; document.write(unescape(date.getFullYear()));</script> <a href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">湖北太阳湾科技有限公司 </a>
+                    <a href="http://beian.miit.gov.cn" rel="nofollow" target="_blank">鄂ICP备18001550号-3</a>
+                    <p class="pull-right small"><code><a title="产品在线咨询" href="//wpa.qq.com/msgrd?v=3&amp;uin=308463776&amp;site=qq&amp;menu=yes" rel="nofollow" target="_blank">QQ:308463776</a></code></p>
+                </div>
+            </div>
+        </footer>
+        <!--end footer -->
     </div>
-    <div id="wrapper">
-        <!--start 湖北太阳湾科技有限公司头部 -->
-        <div id="header">
-            <a id="logo" href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">
-                <img alt="湖北太阳湾科技有限公司无障碍云服务产品演示" src="css/logo.jpg" />
-            </a>
-            <div class="wzaColor">
-                <ul>
-                    <li>
-                        <a href="/index5.html">蓝色</a>
-                    </li>
-                    <li>/</li>
-                    <li>
-                        <a href="/index2.html">灰色</a>
-                    </li>
-                    <li>/</li>
-                    <li>
-                        <a href="/index3.html">纯蓝</a>
-                    </li>
-                    <li>/</li>
-                    <li>
-                        <a href="/index6.html">黑白黄</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--end  湖北太阳湾科技有限公司头部 -->
-        <div id="main">
-            <!--start 站点左侧导航 -->
-            <div id="sidebar">
-                <h2>
-                    无障碍工具条安装
-                </h2>
-                <ul id="nav">
-                    <li><a href="index.html" accesskey="l" title="文本转语音">文本朗读演示页面</a></li>
-                    <li><a href="index2.html" accesskey="l" title="图片Image标签">非文本对象演示页面</a></li>
-                    <li><a href="index3.html" accesskey="l" title="表格Table标签">表单朗读演示页面</a></li>
-                    <li><a href="index4.html" accesskey="l" title="菜单和导航">栏目跳转演示页面</a></li>
-                    <li><a href="index5.html" accesskey="l" title="ARIA标签">区域跳转演示页面</a></li>
-                    <li>无障碍工具条下载</li>
-                </ul>
-            </div>
-            <!--end 站点左侧导航 -->
-            <!--start 站点右侧内容 -->
-            <div id="content">
-                <h2>
-                    太阳湾信息无障碍公共服务平台
-                </h2>
-                <ul>
-                    <li><strong>官方网站:</strong><a href="https://www.rrbay.com" target="_blank" title="湖北太阳湾科技有限公司官方网站">https://www.rrbay.com</a></li>
-                    <li><strong>著作权登记号:</strong><a href="https://register.ccopyright.com.cn/query.html" rel="nofollow" target="_blank" title="中国版权登记查询服务">2018SR930722</a></li>
-                    <li><strong>在线咨询:</strong><a href="http://wpa.qq.com/msgrd?v=3&uin=308463776&site=qq&menu=yes" rel="nofollow" target="_blank" title="qq微信同号">QQ:308463776</a></li>
-                </ul>
-                <br />
-                <hr class="animate-box fadeInUp animated" />
-                <br />
-                <div id="explain">
-                    <strong>第一种本地部署方式(推荐):</strong>
-                    <br />
-                    <ul>
-                        <li>
-                            <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/wza/wzatool_v3-2" title="默认支持手机端无障碍工具条">点击此查看-->无障碍工具条</a>
-                        </li>
-                        <li>
-                            <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/wza/wza_elder_tool" title="适老化需要定制大字版样式和定制区域跳转选择器">点击此查看-->适老化工具条</a>
-                        </li>
-                    </ul>
-                </div>            
-                <div id="explain">
-                    <strong>第二种在线部署方式(在线生成部署代码，引用添加即可):</strong>
-                    <br />
-                    <ul>
-                        <li>
-                            <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/tools/wzatool.html" title="同时支持无障碍工具条、适老化工具条以及移动端无障碍工具条">点击此查看-->一键部署无障碍工具条</a>
-                        </li>               
-                    </ul>
-                </div>
-                <div id="explain">
-                    <strong>其它部署方式:基于iframe(停止升级维护)</strong>
-                    <br />
-                    <ul>
-                        <li>
-                            <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/wza/wang-zhan-xin-xi-wu-zhang-ai-gong-ju-tiao-an-zhuang-bu-shu" title="信息无障碍辅助浏览工具条源码下载">点击此查看-->电脑端无障碍工具条安装部署</a>
-                        </li>
-                        <li>
-                            <a style="line-height:1.5em;" target="_blank" href="https://www.rrbay.com/tools/wzatool-mobile.html" title="移动端一键部署无障碍工具条代码获取">点击此查看-->移动端无障碍工具条安装部署</a>
-                        </li>
-                    </ul>
-                </div>
-                <br />
-                <hr class="animate-box fadeInUp animated" />
-                <br />
-                <div id="explain">
-                    <ul>
-                        <li>
-                            <a href="https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li">点击此查看-->网站无障碍工具条授权方式</a>
-                        </li>
-                        <li>
-                            <a href="https://www.rrbay.com/wza/wza-service">点击此查看-->我们能提供的信息无障碍服务</a>
-                        </li>                    
-                    </ul>
-                </div>
-            </div>
-            <!--end 站点右侧内容 -->
-            <div style="clear:both;"></div>
-        </div>
-        <!--start: 底部版权 -->
-        <div id="footer">
-            <div class="rightBox" id="copyright">
-                Copyright &copy;
-                <script type="text/javascript">var date = new Date; document.write(unescape(date.getFullYear()));</script>
-                <a href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">湖北太阳湾科技有限公司 </a>
-            </div>
-            <div class="leftBox" id="address">
-                <a href="http://beian.miit.gov.cn" rel="nofollow" target="_blank">鄂ICP备18001550号-3</a>
-            </div>
-            <div class="rightBox" id="tel">
-                QQ:308463776
-            </div>
-        </div>
-        <!--end: 底部版权 -->
-    </div>
+    <!--=== Load JS here for cdn ====-->
+    <script type="text/javascript" rel="nofollow" src="res/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" rel="nofollow" src="res/bootstrap.min.js"></script>
     <script id="rrbayJs" src="/canyou/js/wza.min.js?bw"></script>
 </body>
 </html>

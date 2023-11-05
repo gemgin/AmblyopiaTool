@@ -1,0 +1,100 @@
+/*
+长辈模式：适老化样式，需要根据原网站的样式定制修改.
+*/
+.elderClass .header8 .navbar-nav > li > a {
+    font-size: 20px;
+   
+}
+
+.elderClass .header8 .navbar-default .navbar-brand {
+
+    font-size: 32px;
+
+}
+
+.elderClass .col-md-12 {
+font-size: 20px;
+
+}
+
+.elderClass .footer8 p {
+font-size: 20px !important;
+
+}
+
+.elderClass form#Amblyopia3 input.button {
+max-width:60px;
+height:50px;
+
+}
+.elderClass h1 {
+    line-height: 2 !important;
+    font-size: 36px;
+}
+
+.elderClass h2 {
+    line-height: 2 !important;
+    font-size: 32px;
+}
+
+.elderClass div#sidebar h2 {
+   
+     line-height: 2 !important;
+    font-size: 32px;
+    
+}
+
+.elderClass ul#nav li {
+   
+  line-height: 2 !important;
+    font-size: 22px;
+}
+
+    .elderClass ul#nav li a {
+       line-height: 2 !important;
+        font-size: 22px;
+    }
+
+.elderClass div#content {
+     line-height: 2 !important;
+    font-size: 22px;
+}
+
+    .elderClass div#content h2 {
+       
+        line-height: 2 !important;
+        font-size: 32px;
+        
+    }
+
+.elderClass div#explain {
+    
+    line-height: 2 !important;
+   
+    font-size: 22px;
+}
+
+    .elderClass div#explain strong {
+        line-height: 2 !important;
+        font-size: 28px;
+    }
+
+.elderClass div#footer div.leftBox {
+    line-height: 2 !important;
+    font-size: 22px;
+}
+
+.elderClass div#footer div.rightBox {
+      line-height: 2 !important;
+    font-size: 22px;
+}
+
+.elderClass .topEnter a {
+     line-height: 2 !important;
+    font-size: 30px;
+}
+
+.elderClass .wzaColor li {
+     line-height: 2 !important;
+    font-size: 32px;
+}

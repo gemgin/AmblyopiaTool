@@ -1,8 +1,8 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="referrer" content="origin" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>栏目跳转演示 - 信息无障碍公共服务平台 - 湖北太阳湾科技有限公司</title>
     <!--页面SEO优化-->
     <meta name="og:keywords" content="信息无障碍,无障碍工具条,适老化,长辈模式,无障碍阅读,适老化,长辈模式,无障碍通道,网站无障碍,无障碍标准,无障碍实施,无障碍改造,无障碍辅助浏览," />
@@ -18,150 +18,128 @@
     <meta property="type" content="website" />
     <meta property="og:url" content="http://www.qqqao.com/index.html" />
     <meta name="url" content="http://www.qqqao.com/index.html" />
-    <meta property="og:image" content="/css/logo.jpg" />
-    <meta name="image" content="/css/logo.jpg" />
+    <meta property="og:image" content="/res/logo.jpg" />
+    <meta name="image" content="/res/logo.jpg" />
     <link href="favicon.ico" rel="Bookmark" />
     <link href="favicon.ico" rel="shortcut icon" />
-    <!-- 引入样式 -->
-    <link href="css/public.css" rel="stylesheet" type="text/css" />
-    <link href="css/demo.css" rel="stylesheet" type="text/css" />
-    <!-- 引入js -->
-    <script type="text/javascript" src="/canyou/js/jquery-3.6.1.min.js"></script>
+    <!-- CSS Implementing Plugins -->
+    <link type="text/css" rel="stylesheet nofollow" href="res/bootstrap.min.css" />
+  
+    <!-- CSS Template -->
+    <link type="text/css" rel="stylesheet nofollow" href="res/main.css" />
+    <link type="text/css" rel="stylesheet nofollow" href="res/elder.css" />
+    <!--[if lt IE 9]>
+      <script src="res/html5shiv.js"></script>
+      <script src="res/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-    <!--start 网站盲人通道 -->
-    <h1 id="topEnter" class="topEnter">
-        <a title="网站无障碍辅助浏览" href="javascript:;" onclick="ShowDetail()" accesskey="g"
-           onmousedown="ShowDetail()" target="_self">进入网站信息无障碍工具条</a>
-    </h1>
-    <!--end  网站盲人通道 -->
-    <div id="skip">
-        <a title="跳转到主要内容区域" accesskey="2" href="index4.html#content">跳转到主要内容区域</a>
-    </div>
-    <div id="wrapper">
-        <!--start 湖北太阳湾科技有限公司头部 -->
-        <div id="header">
-            <a id="logo" href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">
-                <img alt="网站盲人通道工具条演示站点" src="css/logo.jpg" />
-            </a>
-            <div class="wzaColor">
-                <ul>
-                    <li>
-                        <a href="/index5.html">蓝色</a>
-                    </li>
-                    <li>/</li>
-                    <li>
-                        <a href="/index2.html">灰色</a>
-                    </li>
-                    <li>/</li>
-                    <li>
-                        <a href="/index3.html">纯蓝</a>
-                    </li>
-                    <li>/</li>
-                    <li>
-                        <a href="/index6.html">黑白黄</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--end  湖北太阳湾科技有限公司头部 -->
-        <div id="main">
-            <!--start 站点左侧导航 -->
-            <div id="sidebar" style="min-height: 580px;">
-                <h2>
-                    网站无障碍工具条
-                </h2>
-                <ul id="nav">
-                    <li><a href="index.html" accesskey="l" title="文本转语音">文本朗读演示页面</a></li>
-                    <li><a href="index2.html" accesskey="l" title="图片Image标签">非文本对象演示页面</a></li>
-                    <li><a href="index3.html" accesskey="l" title="表格Table标签">表单朗读演示页面</a></li>
-                    <li>栏目跳转演示页面</li>
-                    <li><a href="index5.html" accesskey="l" title="ARIA标签">区域跳转演示页面</a></li>
-                    <li><a href="index6.html" accesskey="l" title="网站盲人通道工具条源码">无障碍工具条下载</a></li>
-                </ul>
-            </div>
-            <!--end 站点左侧导航 -->
-            <!--start 站点右侧内容 -->
-            <div id="content">
-                <h2>
-                    栏目跳转演示页
-                </h2>
-                <div id="explain">
-                    <strong>开启语音：</strong>点击信息无障碍工具条“语音”按钮即可开启语音辅助功能。也可以使用转换键[Shift]+数字键[6]开启和关闭语音辅助功能。<br />
-                    <strong>使用方法：</strong>使用键盘快捷键Alt+t进行新闻示例跳转；使用键盘快捷键Alt+c进行栏目跳转；使用键盘快捷键Alt+l进行左侧导航跳转。
+    <div id="page" class="page">
+        <!--start header -->
+        <header class="header8" id="home">
+            <!--start navigation -->
+            <nav role="navigation" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                            <span class="sr-only">菜单</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="wzayd" title="网站无障碍辅助浏览" href="javascript:;" class="navbar-brand brand wzayd" accesskey="g"><i class="fa  icon-wza " aria-hidden="true"></i>无障碍工具条</a>
+                        <a id="wzaElder" title="网站适老化模式" class="navbar-brand brand wzaElder" href="javascript:;" accesskey="o"><i class="fa  icon-elder" aria-hidden="true"></i>适老模式</a>
+                    </div>
+                    <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="scroll" title="文本朗读演示页面" href="index.html">首页</a></li>
+                            <li><a class="scroll" title="非文本对象演示页面" href="index2.html">非文本对象</a></li>
+                            <li><a class="scroll" title="表单朗读演示页面" href="index3.html">表单朗读</a></li>
+                            <li class="active"><a class="scroll" title="栏目跳转演示页面" href="index4.html">栏目跳转</a></li>
+                            <li><a class="scroll" title="区域跳转演示页面" href="index5.html">区域跳转</a></li>
+                            <li><a class="scroll" title="无障碍工具条下载部署" href="index6.html">下载安装</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <h3>
-                    <a href="javascript:" accesskey="c">国际新闻栏目</a>
-                </h3>
-                <ul>
-                    <li><a href="javascript:" accesskey="t">国际新闻示例1</a></li>
-                    <li><a href="javascript:" accesskey="t">国际新闻示例2</a></li>
-                    <li><a href="javascript:" accesskey="t">国际新闻示例3</a></li>
-                    <li><a href="javascript:" accesskey="t">国际新闻示例4</a></li>
-                </ul>
-                <h3>
-                    <a href="javascript:" accesskey="c">国内新闻栏目</a>
-                </h3>
-                <h4>
-                    <a href="javascript:" accesskey="c">要闻栏目</a>
-                </h4>
-                <ul>
-                    <li><a href="javascript:" accesskey="t">要闻新闻示例1</a></li>
-                    <li><a href="javascript:" accesskey="t">要闻新闻示例2</a></li>
-                    <li><a href="javascript:" accesskey="t">要闻新闻示例3</a></li>
-                    <li><a href="javascript:" accesskey="t">要闻新闻示例4</a></li>
-                    <li><a href="javascript:" accesskey="t">要闻新闻示例5</a></li>
-                </ul>
-                <h4>
-                    <a href="javascript:" accesskey="c">财经栏目</a>
-                </h4>
-                <ul>
-                    <li><a href="javascript:" accesskey="t">财经新闻示例1</a></li>
-                    <li><a href="javascript:" accesskey="t">财经新闻示例2</a></li>
-                    <li><a href="javascript:" accesskey="t">财经新闻示例3</a></li>
-                    <li><a href="javascript:" accesskey="t">财经新闻示例4</a></li>
-                    <li><a href="javascript:" accesskey="t">财经新闻示例5</a></li>
-                </ul>
-            </div>
-            <!--end 站点右侧内容 -->
-            <div style="clear:both;"></div>
-        </div>
-        <!--start: 底部版权 -->
-        <div id="footer">
-            <div class="rightBox" id="copyright">
-                Copyright &copy;
-                <script type="text/javascript">var date = new Date; document.write(unescape(date.getFullYear()));</script>
-                <a href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">湖北太阳湾科技有限公司 </a>
-            </div>
-            <div class="leftBox" id="address">
-                <a href="http://beian.miit.gov.cn" rel="nofollow" target="_blank">鄂ICP备18001550号-3</a>
-            </div>
-            <div class="rightBox" id="tel">
-                QQ:308463776
-            </div>
+            </nav>
+            <!--start navigation -->
+            <!--end content -->
 
-        </div>
-        <!--end: 底部版权 -->
-    </div
-  
+            <div class="intro center-content">
+
+                <div class="container">
+                    <div class="row">
+                        <a id="logo" href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">
+                            <img alt="网站无障碍工具条演示站点" src="res/logo.jpg" />
+                        </a>
+                        <hr class="animate-box fadeInUp animated" />
+                        <div id="content">
+                            <h2>
+                                栏目跳转演示页
+                            </h2>
+                            <div id="explain">
+                                <strong>开启语音：</strong>点击信息无障碍工具条“语音”按钮即可开启语音辅助功能。也可以使用转换键[Shift]+数字键[6]开启和关闭语音辅助功能。<br />
+                                <strong>使用方法：</strong>使用键盘快捷键Alt+t进行新闻示例跳转；使用键盘快捷键Alt+c进行栏目跳转；使用键盘快捷键Alt+l进行左侧导航跳转。
+                            </div>
+                            <h3>
+                                <a href="javascript:" accesskey="c">国际新闻栏目</a>
+                            </h3>
+                            <ul>
+                                <li><a href="javascript:" accesskey="t">国际新闻示例1</a></li>
+                                <li><a href="javascript:" accesskey="t">国际新闻示例2</a></li>
+                                <li><a href="javascript:" accesskey="t">国际新闻示例3</a></li>
+                                <li><a href="javascript:" accesskey="t">国际新闻示例4</a></li>
+                            </ul>
+                            <h3>
+                                <a href="javascript:" accesskey="c">国内新闻栏目</a>
+                            </h3>
+                            <h4>
+                                <a href="javascript:" accesskey="c">要闻栏目</a>
+                            </h4>
+                            <ul>
+                                <li><a href="javascript:" accesskey="t">要闻新闻示例1</a></li>
+                                <li><a href="javascript:" accesskey="t">要闻新闻示例2</a></li>
+                                <li><a href="javascript:" accesskey="t">要闻新闻示例3</a></li>
+                                <li><a href="javascript:" accesskey="t">要闻新闻示例4</a></li>
+                                <li><a href="javascript:" accesskey="t">要闻新闻示例5</a></li>
+                            </ul>
+                            <h4>
+                                <a href="javascript:" accesskey="c">财经栏目</a>
+                            </h4>
+                            <ul>
+                                <li><a href="javascript:" accesskey="t">财经新闻示例1</a></li>
+                                <li><a href="javascript:" accesskey="t">财经新闻示例2</a></li>
+                                <li><a href="javascript:" accesskey="t">财经新闻示例3</a></li>
+                                <li><a href="javascript:" accesskey="t">财经新闻示例4</a></li>
+                                <li><a href="javascript:" accesskey="t">财经新闻示例5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end content -->
+        </header>
+        <!--end  header -->
+        <!--start footer -->
+        <footer class="footer8">
+            <div class="container">
+                <div class="col-md-12">
+                    Copyright &copy;
+                    <script type="text/javascript">var date = new Date; document.write(unescape(date.getFullYear()));</script> <a href="//www.rrbay.com/" title="湖北太阳湾科技有限公司">湖北太阳湾科技有限公司 </a>
+                    <a href="http://beian.miit.gov.cn" rel="nofollow" target="_blank">鄂ICP备18001550号-3</a>
+                    <p class="pull-right small"><code><a title="产品在线咨询" href="//wpa.qq.com/msgrd?v=3&amp;uin=308463776&amp;site=qq&amp;menu=yes" rel="nofollow" target="_blank">QQ:308463776</a></code></p>
+                </div>
+            </div>
+        </footer>
+        <!--end footer -->
+    </div>
+    <!--=== Load JS here for cdn ====-->
+    <script type="text/javascript" rel="nofollow" src="res/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" rel="nofollow" src="res/bootstrap.min.js"></script>
+    <script id="rrbayJs" src="/canyou/js/wza.min.js?blue"></script>
+    
+
+
+
 </body>
 </html>
-<script type="text/javascript">  
-    if (window.top.document.getElementById("rrbay_wzatool")) {
-        //点击无障碍阅读，自动隐藏入口
-        var dWZA = document.getElementById("topEnter");
-        if (dWZA) {
-
-            dWZA.style.display = "none";
-        }
-    }
-    function ShowDetail() {
-        if (window.top.document.getElementById("rrbay_wzatool")) {
-            return false;
-        }
-        var url = "?url=" + document.location.href;
-        window.scrollTo(0, 0);
-        location_href('canyou/defaultBw.html' + url);
-    }
-    function location_href(url) { location.href = url }
-</script>
