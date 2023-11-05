@@ -77,7 +77,7 @@
 - 朗读功能：全页面朗读，可以指定开始位置朗读
 - 放大功能：页面字体5级放大
 - 代码获取 [https://www.rrbay.com/tools/wzatool.html](https://www.rrbay.com/tools/wzatool.html "一行代码部署移动端无障碍工具条")
-- 手机端效果演示 [https://www.rrbay.com/contact](https://www.rrbay.com/contact "用手机打开此页面")
+- 手机端效果演示 [http://www.qqqao.com](http://www.qqqao.com "用手机打开此页面")
 
 ## 2020-12-12 一键部署无障碍工具条
 - 一行代码部署无障碍工具条
@@ -116,6 +116,11 @@
 - 新增智能解析接口
 - Tab键细节处理
 - 工具条快捷键重新设计
+- 优化一些功能
+
+## 2023-11-05 无障碍工具条4.1版本更新说明
+- 手机端无障碍工具条升级
+- 电脑端无障碍工具条显示屏显示字体问题
 - 优化一些功能
 
 ### License
