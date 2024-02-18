@@ -33,7 +33,7 @@
 
 ### 授权方式
 
-- 网站无障碍工具条授权方式： [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "无障碍工具条授权")
+- [无障碍工具条授权和区域代理](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "无障碍工具条授权")
 
 ### 演示站点
 
