@@ -31,7 +31,9 @@
 
 - [无障碍工具条本地化安装部署(推荐)](http://www.qqqao.com/index6.html "无障碍工具条本地化安装部署")
 
-- 网站无障碍工具条授权方式： [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "工具条灰色模版")
+### 授权方式
+
+- 网站无障碍工具条授权方式： [https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li](https://www.rrbay.com/wza/tai-yang-wan-xin-xi-wu-zhang-ai-qu-yu-dai-li "无障碍工具条授权")
 
 ### 演示站点
 
