@@ -1,8 +1,4 @@
-﻿# 网站信息无障碍
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/gemgin/AmblyopiaTool/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/gemgin/AmblyopiaTool.svg?style=social&label=Stars)](https://github.com/gemgin/AmblyopiaTool)
-[![GitHub forks](https://img.shields.io/github/forks/gemgin/AmblyopiaTool.svg?style=social&label=Fork)](https://github.com/gemgin/AmblyopiaTool)
+﻿## 网站信息无障碍工具条
 
 [点击链接加入群聊【太阳湾信息无障碍QQ群】：26363996](https://jq.qq.com/?_wv=1027&k=f8g1arWo "QQ群:26363996")
 
